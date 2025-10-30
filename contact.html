@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | The Green Thumb Collective</title>
+    <meta name="description" content="Contact The Green Thumb Collective in Cape Town for gardening consultations, plant inquiries, or customer support. Use our contact form or call us directly.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video class="video-bg" src="IMAGES/GREEN THUMB COLLECTIVE BACKGROUND 2(PINK FLOWERS).mp4" autoplay loop muted></video>
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div>
+        <header style="text-align: center;">
+            <h1 class="page-title">CONTACT PAGE</h1> 
+        </header>
+        <main>
+            <section class="contact-container">
+                <div class="text">
+                    <h2>Get in Touch</h2>
+                    <p>We're here to help with all your gardening needs! Whether you have questions about our plants, 
+                        want to book a consultation, or just want to share your passion for greenery, feel free to reach out.<br>
+                         We are committed to providing the best service and products to help your garden thrive.<br>
+                          Use the form on the right to send us a message, and we'll get back to you as soon as we can.<br>
+                           We look forward to hearing from you!</p>
+                    <h3>Contact Information</h3>
+                    <p>
+                        Email: contact@greenthumb.com<br>
+                    Telephone: 021 2344 2345</p>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contactForm" action="#" method="POST">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                        <div id="nameError" class="error-message">Name is required.</div>
+
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                        <div id="emailError" class="error-message">A valid email address is required.</div>
+
+                        <label for="message">Your Message / Enquiry:</label>
+                        <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+                        <div id="messageError" class="error-message">A message is required.</div>
+                        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            
+            </section>
+        </main>
+    </div>
+    <footer>
+       <p>&copy; 2025 The Green Thumb Collective. All Rights Reserved.</p>
+        <p>Contact Us<br>
+            Email: contact@greenthumb.com
+        Telephone:021 2344 2345
+    </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
